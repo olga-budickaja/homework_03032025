@@ -41,7 +41,7 @@ def measure_time_threadpool(numbers):
     end_time = time.time()
     return end_time - start_time
 
-numbers = [10, 50, 100, 200, 300, 1000000]
+numbers = [10, 50, 100, 200, 300, 100000]
 threading_time = measure_time_threading(numbers)
 threadpool_time = measure_time_threadpool(numbers)
 
